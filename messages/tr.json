@@ -1,0 +1,125 @@
+{
+    "common": {
+        "siteName": "CaseTicaret",
+        "search": "Ara",
+        "searchPlaceholder": "Ürün, kategori veya marka ara...",
+        "cart": "Sepet",
+        "favorites": "Favoriler",
+        "login": "Giriş Yap",
+        "register": "Üye Ol",
+        "allCategories": "Tüm Kategoriler",
+        "home": "Ana Sayfa",
+        "addToCart": "Sepete Ekle",
+        "addedToCart": "Sepete Eklendi",
+        "addToFavorites": "Favorilere Ekle",
+        "removeFromFavorites": "Favorilerden Çıkar",
+        "buyNow": "Hemen Al",
+        "viewDetails": "Detayları Gör",
+        "loading": "Yükleniyor...",
+        "error": "Bir hata oluştu",
+        "retry": "Tekrar Dene",
+        "noResults": "Sonuç bulunamadı",
+        "currency": "TRY",
+        "freeShipping": "Ücretsiz Kargo",
+        "inStock": "Stokta",
+        "outOfStock": "Stokta Yok",
+        "pieces": "adet",
+        "total": "Toplam",
+        "subtotal": "Ara Toplam",
+        "discount": "İndirim",
+        "goToCart": "Sepete Git",
+        "continueShopping": "Alışverişe Devam Et",
+        "checkout": "Siparişi Tamamla",
+        "emptyCart": "Sepetiniz boş",
+        "emptyFavorites": "Favori ürününüz bulunmuyor",
+        "reviews": "Değerlendirme",
+        "description": "Açıklama",
+        "specifications": "Özellikler"
+    },
+    "home": {
+        "heroBanner": {
+            "title": "Yeni Sezon İndirimleri",
+            "subtitle": "En trend ürünlerde %50'ye varan indirimler",
+            "cta": "Keşfet"
+        },
+        "featuredProducts": "Öne Çıkan Ürünler",
+        "popularCategories": "Popüler Kategoriler",
+        "bestSellers": "Çok Satanlar",
+        "newArrivals": "Yeni Gelenler",
+        "deals": "Fırsatlar"
+    },
+    "product": {
+        "addToCartSuccess": "Ürün sepete eklendi",
+        "selectVariant": "Lütfen bir seçenek seçin",
+        "quantity": "Adet",
+        "seller": "Satıcı",
+        "brand": "Marka",
+        "category": "Kategori",
+        "share": "Paylaş",
+        "report": "Bildir",
+        "allReviews": "Tüm Değerlendirmeler",
+        "writeReview": "Değerlendirme Yaz",
+        "similarProducts": "Benzer Ürünler",
+        "recentlyViewed": "Son Görüntülenenler"
+    },
+    "category": {
+        "sortBy": "Sırala",
+        "filter": "Filtrele",
+        "sortOptions": {
+            "newest": "En Yeniler",
+            "priceLowToHigh": "Fiyat: Düşükten Yükseğe",
+            "priceHighToLow": "Fiyat: Yüksekten Düşüğe",
+            "mostPopular": "En Popüler",
+            "bestRating": "En Yüksek Puan"
+        },
+        "filters": {
+            "price": "Fiyat",
+            "brand": "Marka",
+            "color": "Renk",
+            "size": "Beden"
+        },
+        "clearFilters": "Filtreleri Temizle",
+        "showResults": "Sonuçları Göster",
+        "productsFound": "{count} ürün bulundu"
+    },
+    "cart": {
+        "title": "Sepetim",
+        "itemCount": "{count} ürün",
+        "selectAll": "Tümünü Seç",
+        "removeSelected": "Seçilenleri Sil",
+        "orderSummary": "Sipariş Özeti",
+        "shippingInfo": "100 TL üzeri siparişlerde kargo bedava!",
+        "proceedToCheckout": "Ödemeye Geç",
+        "updateCart": "Sepeti Güncelle",
+        "removeItem": "Ürünü Kaldır",
+        "moveToFavorites": "Favorilere Taşı"
+    },
+    "footer": {
+        "aboutUs": "Hakkımızda",
+        "careers": "Kariyer",
+        "blog": "Blog",
+        "helpCenter": "Yardım Merkezi",
+        "contactUs": "Bize Ulaşın",
+        "returns": "İade ve Değişim",
+        "shipping": "Kargo Takip",
+        "termsOfService": "Kullanım Koşulları",
+        "privacyPolicy": "Gizlilik Politikası",
+        "followUs": "Bizi Takip Edin",
+        "newsletter": "Bülten",
+        "newsletterPlaceholder": "E-posta adresiniz",
+        "subscribe": "Abone Ol",
+        "copyright": "© 2024 CaseTicaret. Tüm hakları saklıdır."
+    },
+    "errors": {
+        "404": {
+            "title": "Sayfa Bulunamadı",
+            "description": "Aradığınız sayfa mevcut değil veya taşınmış olabilir.",
+            "backHome": "Ana Sayfaya Dön"
+        },
+        "500": {
+            "title": "Sunucu Hatası",
+            "description": "Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin.",
+            "backHome": "Ana Sayfaya Dön"
+        }
+    }
+}

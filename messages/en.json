@@ -1,0 +1,125 @@
+{
+    "common": {
+        "siteName": "CaseTicaret",
+        "search": "Search",
+        "searchPlaceholder": "Search for products, categories or brands...",
+        "cart": "Cart",
+        "favorites": "Favorites",
+        "login": "Login",
+        "register": "Sign Up",
+        "allCategories": "All Categories",
+        "home": "Home",
+        "addToCart": "Add to Cart",
+        "addedToCart": "Added to Cart",
+        "addToFavorites": "Add to Favorites",
+        "removeFromFavorites": "Remove from Favorites",
+        "buyNow": "Buy Now",
+        "viewDetails": "View Details",
+        "loading": "Loading...",
+        "error": "An error occurred",
+        "retry": "Retry",
+        "noResults": "No results found",
+        "currency": "TRY",
+        "freeShipping": "Free Shipping",
+        "inStock": "In Stock",
+        "outOfStock": "Out of Stock",
+        "pieces": "pcs",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "discount": "Discount",
+        "goToCart": "Go to Cart",
+        "continueShopping": "Continue Shopping",
+        "checkout": "Complete Order",
+        "emptyCart": "Your cart is empty",
+        "emptyFavorites": "You have no favorite products",
+        "reviews": "Reviews",
+        "description": "Description",
+        "specifications": "Specifications"
+    },
+    "home": {
+        "heroBanner": {
+            "title": "New Season Sale",
+            "subtitle": "Up to 50% off on trending products",
+            "cta": "Discover"
+        },
+        "featuredProducts": "Featured Products",
+        "popularCategories": "Popular Categories",
+        "bestSellers": "Best Sellers",
+        "newArrivals": "New Arrivals",
+        "deals": "Deals"
+    },
+    "product": {
+        "addToCartSuccess": "Product added to cart",
+        "selectVariant": "Please select an option",
+        "quantity": "Quantity",
+        "seller": "Seller",
+        "brand": "Brand",
+        "category": "Category",
+        "share": "Share",
+        "report": "Report",
+        "allReviews": "All Reviews",
+        "writeReview": "Write a Review",
+        "similarProducts": "Similar Products",
+        "recentlyViewed": "Recently Viewed"
+    },
+    "category": {
+        "sortBy": "Sort by",
+        "filter": "Filter",
+        "sortOptions": {
+            "newest": "Newest",
+            "priceLowToHigh": "Price: Low to High",
+            "priceHighToLow": "Price: High to Low",
+            "mostPopular": "Most Popular",
+            "bestRating": "Best Rating"
+        },
+        "filters": {
+            "price": "Price",
+            "brand": "Brand",
+            "color": "Color",
+            "size": "Size"
+        },
+        "clearFilters": "Clear Filters",
+        "showResults": "Show Results",
+        "productsFound": "{count} products found"
+    },
+    "cart": {
+        "title": "My Cart",
+        "itemCount": "{count} items",
+        "selectAll": "Select All",
+        "removeSelected": "Remove Selected",
+        "orderSummary": "Order Summary",
+        "shippingInfo": "Free shipping on orders over 100 TRY!",
+        "proceedToCheckout": "Proceed to Checkout",
+        "updateCart": "Update Cart",
+        "removeItem": "Remove Item",
+        "moveToFavorites": "Move to Favorites"
+    },
+    "footer": {
+        "aboutUs": "About Us",
+        "careers": "Careers",
+        "blog": "Blog",
+        "helpCenter": "Help Center",
+        "contactUs": "Contact Us",
+        "returns": "Returns & Exchanges",
+        "shipping": "Shipping Tracking",
+        "termsOfService": "Terms of Service",
+        "privacyPolicy": "Privacy Policy",
+        "followUs": "Follow Us",
+        "newsletter": "Newsletter",
+        "newsletterPlaceholder": "Your email address",
+        "subscribe": "Subscribe",
+        "copyright": "© 2024 CaseTicaret. All rights reserved."
+    },
+    "errors": {
+        "404": {
+            "title": "Page Not Found",
+            "description": "The page you are looking for does not exist or has been moved.",
+            "backHome": "Back to Home"
+        },
+        "500": {
+            "title": "Server Error",
+            "description": "Something went wrong. Please try again later.",
+            "backHome": "Back to Home"
+        }
+    }
+}
