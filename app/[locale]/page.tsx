@@ -44,12 +44,12 @@ export default async function HomePage({
         '@context': 'https://schema.org',
         '@type': 'WebSite',
         name: 'CaseTicaret',
-        url: `https://caseticaret.vercel.app/${locale}`,
+        url: `https://o-o-nine.vercel.app/${locale}`,
         potentialAction: {
             '@type': 'SearchAction',
             target: {
                 '@type': 'EntryPoint',
-                urlTemplate: `https://caseticaret.vercel.app/${locale}/search?q={search_term_string}`,
+                urlTemplate: `https://o-o-nine.vercel.app/${locale}/search?q={search_term_string}`,
             },
             'query-input': 'required name=search_term_string',
         },

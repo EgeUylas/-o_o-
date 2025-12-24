@@ -78,7 +78,7 @@ export default async function CategoryPage({
         '@context': 'https://schema.org',
         '@type': 'CollectionPage',
         name: category.name,
-        url: `https://caseticaret.vercel.app/${locale}/category/${slug}`,
+        url: `https://o-o-nine.vercel.app/${locale}/category/${slug}`,
     };
 
     return (

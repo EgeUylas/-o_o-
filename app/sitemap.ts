@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 import { products, categories } from '@/data/mock-data';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://caseticaret.vercel.app';
+    const baseUrl = 'https://o-o-nine.vercel.app';
     const locales = ['tr', 'en'];
 
     const staticPages = locales.flatMap((locale) => [

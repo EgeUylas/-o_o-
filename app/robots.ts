@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: ['/api/', '/_next/'],
         },
-        sitemap: 'https://caseticaret.vercel.app/sitemap.xml',
+        sitemap: 'https://o-o-nine.vercel.app/sitemap.xml',
     };
 }
