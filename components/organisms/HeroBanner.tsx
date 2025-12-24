@@ -16,7 +16,15 @@ interface HeroBannerProps {
 export function HeroBanner({ title, subtitle, cta, locale }: HeroBannerProps) {
     return (
         <section className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-orange-500 via-red-500 to-pink-500">
-            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=1920')] bg-cover bg-center opacity-20 mix-blend-overlay" />
+            {/* LCP optimized background image */}
+            <Image
+                src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=1920"
+                alt=""
+                fill
+                priority
+                fetchPriority="high"
+                className="object-cover opacity-20 mix-blend-overlay"
+            />
 
             <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between p-8 md:p-12 lg:p-16">
                 <motion.div

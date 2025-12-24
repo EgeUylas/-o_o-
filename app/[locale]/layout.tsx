@@ -79,6 +79,11 @@ export default async function LocaleLayout({
 
     return (
         <html lang={locale} suppressHydrationWarning>
+            <head>
+                {/* Preconnect to external origins for faster loading */}
+                <link rel="preconnect" href="https://images.unsplash.com" />
+                <link rel="dns-prefetch" href="https://images.unsplash.com" />
+            </head>
             <body
                 className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
             >
