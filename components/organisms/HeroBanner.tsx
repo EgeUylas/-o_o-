@@ -28,7 +28,7 @@ export function HeroBanner({ title, subtitle, cta, locale }: HeroBannerProps) {
                     <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
                         {title}
                     </h1>
-                    <p className="text-lg md:text-xl opacity-90 mb-6 max-w-md">
+                    <p className="text-lg md:text-xl text-white/95 mb-6 max-w-md">
                         {subtitle}
                     </p>
                     <Link href={`/${locale}/category/elektronik`}>

@@ -200,7 +200,7 @@ export function Header() {
                     {/* Actions */}
                     <div className="flex items-center gap-1 md:gap-2">
                         {/* Search - Mobile toggle (hidden for now, mobile search is below) */}
-                        <Button variant="ghost" size="icon" className="md:hidden">
+                        <Button variant="ghost" size="icon" className="md:hidden" aria-label={locale === 'tr' ? 'Ara' : 'Search'}>
                             <Search className="h-5 w-5" />
                         </Button>
 
@@ -210,6 +210,7 @@ export function Header() {
                                 variant="ghost"
                                 size="icon"
                                 onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+                                aria-label={locale === 'tr' ? 'Tema değiştir' : 'Toggle theme'}
                             >
                                 {theme === 'dark' ? (
                                     <Sun className="h-5 w-5" />
@@ -222,7 +223,7 @@ export function Header() {
                         {/* Language switcher */}
                         <DropdownMenu>
                             <DropdownMenuTrigger asChild>
-                                <Button variant="ghost" size="icon">
+                                <Button variant="ghost" size="icon" aria-label={locale === 'tr' ? 'Dil seç' : 'Select language'}>
                                     <Globe className="h-5 w-5" />
                                 </Button>
                             </DropdownMenuTrigger>
@@ -241,8 +242,8 @@ export function Header() {
                         </DropdownMenu>
 
                         {/* Favorites */}
-                        <Link href={`/${locale}/favorites`}>
-                            <Button variant="ghost" size="icon" className="relative">
+                        <Link href={`/${locale}/favorites`} aria-label={locale === 'tr' ? 'Favoriler' : 'Favorites'}>
+                            <Button variant="ghost" size="icon" className="relative" aria-label={locale === 'tr' ? 'Favoriler' : 'Favorites'}>
                                 <Heart className="h-5 w-5" />
                                 {mounted && favoriteCount > 0 && (
                                     <Badge
@@ -256,8 +257,8 @@ export function Header() {
                         </Link>
 
                         {/* Cart */}
-                        <Link href={`/${locale}/cart`}>
-                            <Button variant="ghost" size="icon" className="relative">
+                        <Link href={`/${locale}/cart`} aria-label={locale === 'tr' ? 'Sepet' : 'Cart'}>
+                            <Button variant="ghost" size="icon" className="relative" aria-label={locale === 'tr' ? 'Sepet' : 'Cart'}>
                                 <ShoppingCart className="h-5 w-5" />
                                 {mounted && cartItemCount > 0 && (
                                     <Badge

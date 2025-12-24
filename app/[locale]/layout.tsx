@@ -31,6 +31,7 @@ export async function generateMetadata({
     const { locale } = await params;
 
     return {
+        metadataBase: new URL('https://o-o-nine.vercel.app'),
         title: {
             template: '%s | CaseTicaret',
             default: locale === 'tr'
@@ -41,6 +42,13 @@ export async function generateMetadata({
             ? 'Türkiye\'nin en büyük online alışveriş platformu. Elektronik, moda, ev & yaşam ve daha fazlası.'
             : 'Turkey\'s largest online shopping platform. Electronics, fashion, home & living and more.',
         keywords: ['e-commerce', 'online shopping', 'electronics', 'fashion', 'deals'],
+        alternates: {
+            canonical: `/${locale}`,
+            languages: {
+                'tr': '/tr',
+                'en': '/en',
+            },
+        },
         openGraph: {
             type: 'website',
             locale: locale === 'tr' ? 'tr_TR' : 'en_US',

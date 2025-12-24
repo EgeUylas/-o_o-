@@ -117,6 +117,7 @@ export const ProductCard = memo(function ProductCard({ product, locale }: Produc
                                     isFav && 'text-red-500'
                                 )}
                                 onClick={handleToggleFavorite}
+                                aria-label={locale === 'tr' ? (isFav ? 'Favorilerden çıkar' : 'Favorilere ekle') : (isFav ? 'Remove from favorites' : 'Add to favorites')}
                             >
                                 <Heart className={cn('h-4 w-4', isFav && 'fill-current')} />
                             </Button>
