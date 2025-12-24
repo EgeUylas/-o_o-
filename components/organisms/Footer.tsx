@@ -146,17 +146,10 @@ export function Footer({ locale }: FooterProps) {
                 {/* Bottom bar */}
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
                     <p>{t('copyright')}</p>
-                    <div className="flex items-center gap-4">
-                        <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Stripe_Logo%2C_revised_2016.svg/120px-Stripe_Logo%2C_revised_2016.svg.png"
-                            alt="Stripe"
-                            className="h-6 opacity-60 dark:invert"
-                        />
-                        <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/120px-PayPal.svg.png"
-                            alt="PayPal"
-                            className="h-6 opacity-60"
-                        />
+                    <div className="flex items-center gap-3">
+                        <span className="px-3 py-1 rounded bg-muted text-xs font-medium">Visa</span>
+                        <span className="px-3 py-1 rounded bg-muted text-xs font-medium">Mastercard</span>
+                        <span className="px-3 py-1 rounded bg-muted text-xs font-medium">PayPal</span>
                     </div>
                 </div>
             </div>
